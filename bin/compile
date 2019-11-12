@@ -2,7 +2,7 @@
 BUILD_DIR=$1
 TESSERACT_OCR_VERSION=4.1.0
 TESSERACT_OCR_TGZ=tesseract-ocr-$TESSERACT_OCR_VERSION.tar.gz
-TESSERACT_NAME=tesseract-$TESSERACT_OCR_VERSION
+TESSERACT_NAME=tesseract-ocr-$TESSERACT_OCR_VERSION
 
 INSTALL_DIR=$BUILD_DIR/vendor/tesseract-ocr/
 TESSERACT_OCR_DIR=${HOME}/vendor/tesseract-ocr
@@ -19,7 +19,3 @@ mkdir -p $BUILD_DIR/.profile.d
 echo "export PATH=\"$TESSERACT_OCR_DIR/$TESSERACT_NAME:\$PATH\"" > $ENVSCRIPT
 # echo "export LD_LIBRARY_PATH=\"$TESSERACT_OCR_DIR/lib:\$LD_LIBRARY_PATH\"" >> $ENVSCRIPT
 echo "export TESSDATA_PREFIX=\"$TESSERACT_OCR_DIR/$TESSERACT_NAME/tessdata\"" >> $ENVSCRIPT
-
-
-/app/vendor/tesseract-ocr/tesseract-4.1.0/tesseract
-/app/vendor/tesseract-ocr/tesseract-4.1.0
