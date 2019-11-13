@@ -2,6 +2,8 @@
 
 This package provides a custom Heroku buildpack providing the [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) binary and all the required libraries to Heroku apps. Training data for English language is provided.
 
+Tessseract version is "tesseract 4.1.1-rc2-5-gcb76"
+
 ## Configuration
 
 The first step consists in allowing your Heroku app to use multiple buildpacks. Heroku natively supports [multiple buildpacks per app](https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app).
@@ -26,3 +28,4 @@ Original work Copyright (c) 2013 Marco Azimonti
 Modified work Copyright (c) 2015 Matteo Maggioni  
 Modified work Copyright (c) 2015 Oswell Chan  
 Modified work Copyright (c) 2018 Malcolm Patterson
+Modified work Copyright (c) 2019 Dmitriy Beseda
